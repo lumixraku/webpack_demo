@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "proxy": "webpack-dev-server --config dev.config.js",
+        "dev": "webpack --config dev.config.js"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "webpack": "^4.14.0",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "devDependencies": {
+        "webpack-cli": "^3.0.8"
+    }
+}
